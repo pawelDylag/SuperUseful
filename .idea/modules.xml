@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SuperUseful.iml" filepath="$PROJECT_DIR$/SuperUseful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superuseful-business-logic-module/superuseful-business-logic-module.iml" filepath="$PROJECT_DIR$/superuseful-business-logic-module/superuseful-business-logic-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superuseful-cloud-module/superuseful-cloud-module.iml" filepath="$PROJECT_DIR$/superuseful-cloud-module/superuseful-cloud-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superuseful-core-module/superuseful-core-module.iml" filepath="$PROJECT_DIR$/superuseful-core-module/superuseful-core-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superuseful-interfaces-api/superuseful-interfaces-api.iml" filepath="$PROJECT_DIR$/superuseful-interfaces-api/superuseful-interfaces-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superuseful-starter/superuseful-starter.iml" filepath="$PROJECT_DIR$/superuseful-starter/superuseful-starter.iml" />
+    </modules>
+  </component>
+</project>

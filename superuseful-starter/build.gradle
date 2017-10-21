@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.paweldylag.superuseful"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // TEST
+    testCompile 'junit:junit:4.12'
+    // ANDROID
+    compile 'com.android.support:appcompat-v7:26.+'
+    // KOTLIN
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    // SUPERUSEFUL
+    compile project(':superuseful-interfaces-api')
+    compile project(':superuseful-business-logic-module')
+    compile project(':superuseful-cloud-module')
+    compile project(':superuseful-core-module')
+    // RX
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+}
+repositories {
+    mavenCentral()
+}
